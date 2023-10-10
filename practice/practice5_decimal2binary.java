@@ -10,6 +10,8 @@ public class practice5_decimal2binary {
         int temp = deci;
         int cnt = 0;
         double power = Math.pow(2, cnt);
+
+        // code to determine how long the biary number will be
         while (temp%power!=temp){
             cnt++;
             power = Math.pow(2, cnt);
@@ -17,7 +19,7 @@ public class practice5_decimal2binary {
         int length=cnt;
         // System.out.println(length);
 
-        
+        // calculating the binary number
         for (int i = length;i!=0;i--){
             power = Math.pow(2, i-1);
             if (temp%power==temp){
