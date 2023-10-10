@@ -1,0 +1,7 @@
+To make a package in java, make a .java file and at the top write --> package <package name>;
+
+write the code
+go to the terminal and run the command
+javac -d . <file name>.java
+
+this will create a package
