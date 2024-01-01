@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class practice6_leapyear {
     public static void main(String[] args) {
+        // System.out.println(args[1]);
+
         Scanner inp = new Scanner(System.in);
         System.out.print("Enter year: ");
         int year = inp.nextInt();
@@ -16,8 +18,7 @@ public class practice6_leapyear {
 
         else{
             System.out.println(year+" is not a leap year :(");
-        }
-
+        } 
         inp.close();
     }
 }
